@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: nats-py
-  version: "2.14.0"
+  version: "2.15.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 4ed02cb8e3b55c68074a063aa2687087115d805d1513297da90cb2068fb07bed
+  sha256: 6622c547d9a7d2313d9c147d46c386188f4ec2c7b5c9f9a0438a4d1b55f54a93
 
 build:
   number: 0
